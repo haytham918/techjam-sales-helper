@@ -1,0 +1,16 @@
+{
+  "name": "techjam-sales-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:haytham918/techjam-sales-helper.git",
+  "author": "Jacob Sun <jacobsun000@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"yarn run start-frontend\" \"yarn run start-backend\"",
+    "start-frontend": "yarn --cwd frontend start",
+    "start-backend": "yarn --cwd backend dev"
+  }
+}
