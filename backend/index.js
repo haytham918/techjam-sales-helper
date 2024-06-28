@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-app.get('/api', (req, res) => {
-  res.send({ message: 'Hello from the backend!' });
 /**
  * @typedef {Object} Product
  * @property {number} id
@@ -94,7 +92,84 @@ class Message {
   }
 }
 
+
+/**
+ * @api {post} /api/chat Chat with sales helper
+ * @apiName chat
+ *
+ * @apiHeader {String} Content-Type application/json
+ *
+ * @apiBody {Message[]} messages List of chat messages or empty array.
+ *
+ * @apiSuccess {Message} message A JSON Message with recommended products.
+ *
+ * @apiError (500) {String} Server error An error occurred while processing the request.
+ *
+ * @apiExample {curl} Example usage:
+ *     curl -X POST http://localhost:3000/api/chat -H "Content-Type: application/json" -d '[{"sender": "User", "text": "Hello", "timestamp": "2024-06-27T12:00:00Z", "products": null}]'
+ *
+ * @apiSuccessExample {json} Success response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       "sender": "Sales Helper",
+ *       "text": "Echo: Hello",
+ *       "timestamp": "2024-06-27T12:01:00Z",
+ *       "products": [
+ *         {
+ *           "id": 1,
+ *           "name": "Product 1",
+ *           "image_url": "https://example.com/product1.jpg",
+ *           "link_url": "https://example.com/product1",
+ *           "price": 10.99
+ *         },
+ *         {
+ *           "id": 2,
+ *           "name": "Product 2",
+ *           "image_url": "https://example.com/product2.jpg",
+ *           "link_url": "https://example.com/product2",
+ *           "price": 20.99
+ *         }
+ *       ]
+ *     }
+ *
+ * @apiErrorExample {json} Error response (500):
+ *     HTTP/1.1 500 Internal Server Error
+ *     {
+ *       "error": "Server error"
+ *     }
+ */
+app.post('/api/echo', (req, res) => {
+  const messages = req.body.map((message) => Message.fromJSON(JSON.stringify(message)));
+  if (!messages) {
+    res.status(500).json({ error: 'Empty message' });
+    return;
+  }
+  responseMessage = chat(messages);
+  res.json(JSON.parse(responseMessage.toJSON()));
 });
+
+/**
+ * @param {Message[]} messages
+ * @returns {Message}
+*/
+function chat(messages) {
+  const exampleProducts = [
+    new Product(1, 'Product 1', 'https://example.com/product1.jpg', 'https://example.com/product1', 10.99),
+    new Product(2, 'Product 2', 'https://example.com/product2.jpg', 'https://example.com/product2', 20.99),
+    new Product(3, 'Product 3', 'https://example.com/product3.jpg', 'https://example.com/product3', 30.99),
+    new Product(4, 'Product 4', 'https://example.com/product4.jpg', 'https://example.com/product4', 40.99),
+    new Product(5, 'Product 5', 'https://example.com/product5.jpg', 'https://example.com/product5', 50.99),
+  ];
+
+  const responseMessage = new Message(
+    'Sales Helper',
+    `Echo: ${messages[messages.length - 1].text}`,
+    new Date().toISOString(),
+    exampleProducts
+  );
+  return responseMessage;
+}
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
