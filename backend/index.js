@@ -1,4 +1,5 @@
 const express = require("express");
+const session = require("express-session");
 const OpenAI = require("openai");
 const fs = require("fs");
 const app = express();
@@ -7,25 +8,48 @@ const PORT = process.env.PORT || 5001;
 const productData = JSON.parse(fs.readFileSync("product_info.json"));
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 app.use(express.json());
 
+app.use(
+  session({
+    secret: "djiawdommijaodmwaid",
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false },
+  })
+);
+
 app.post("/recommendation", async (req, res) => {
   try {
     const { userInput } = req.body;
-    const systemMessages = productData
+
+    // Initialize the dialog of the session
+    if (!req.session.dialog) {
+      const productNames = productData
+        .map((product) => `product name: ${product.name}`)
+        .join(", ");
+      const systemMessage = `{role: "system", "content": "${productNames}. Based on the user's needs, I recommend: "}`;
+      req.session.dialog = [];
+      // Push the system prompt to dialog
+      req.session.dialog.push(systemMessage);
+    }
+
+    // Retrieve previous dialogs info
+    const dialogHistory = req.session.dialog
       .map(
-        (p) =>
-          `{ "role": "system", "content": "Product name: ${p.name}, Price: ${p.price}" }`
+        (dialog) =>
+          `{ "role": "${dialog.role}", "content": "${dialog.content}" }`
       )
       .join(",\n");
 
+    req.session.dialog.push({ role: "user", content: userInput });
+
     const prompt = `[
-      ${systemMessages},
+      ${dialogHistory}
       { "role": "user", "content": "${userInput}" },
-      { "role": "system", "content": "Based on the user's needs, I recommend:" }
   ]`;
 
     const response = await openai.createCompletion({
@@ -36,6 +60,9 @@ app.post("/recommendation", async (req, res) => {
     });
 
     const openaiResponse = response.data.choices[0].text.trim();
+
+    // Push the response into the dialog as well
+    req.session.dialog.push({role: "assistant", content: openaiResponse});
 
     const recommendedProducts = productData
       .filter((product) => openaiResponse.includes(product.name))
