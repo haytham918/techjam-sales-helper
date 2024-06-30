@@ -1,263 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
-
 .chatbox {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  background: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 15px;
   overflow: hidden;
-  transition: all ease 0.5s;
-  z-index: 1000;
-}
-
-.chatbox h3 {
-  visibility: hidden;
-}
-
-.chatbox-avatar {
-  width: 40px;
-  height: 40px;
-}
-
-.chatbox.open {
-  width: 30%;
-  height: 80%;
-  border-radius: 16px;
-}
-
-.chatbox.open h3 {
-  visibility: visible;
-}
-
-.chatbox-header {
-  background: #007bff;
-  color: #fff;
-  padding: 10px;
-  cursor: pointer;
-  display: flex;
-}
-
-.chatbox.open .chatbox-header {
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 15px 15px 15px;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
-}
-
-.chatbox-toggle {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: solid 2px #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
-
-.chatbox-body {
-  height: calc(100% - 50px);
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  height: 80vh;
+  width: 100%;
   position: relative;
-}
-
-.chatbox-options-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.chatbox-options-container > span {
-  margin: 40px;
-  margin-bottom: 20px;
-  font-family: 'ABeeZee';
-  font-style: italic;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 20px;
-  text-align: center;
-  font-feature-settings: 'ss07' on;
-  color: #666666;
-}
-
-.chatbox-options button {
-  display: block;
-  width: 80%;
-  padding: 10px;
-  margin: calc(10% / 2) auto;
-  border: solid 1px #ccc;
-  background: #fff;
-  cursor: pointer;
-  border-radius: 100px;
-  line-height: 3;
-  transition: all ease 0.3s;
-  display: flex;
-  justify-content: space-between;
-}
-
-.chatbox-options button:hover {
-  background: #ddd;
-}
-
-.chatbox-options button > div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.chatbox-options h4 {
-  margin-top: 5px;
-  margin-left: 40px;
-  font-family: 'ABeeZee';
-  font-style: italic;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 154%;
-  font-feature-settings: 'ss07' on;
-
-  color: #7A808C;
-}
-
-.chatbox-options span {
-  margin-bottom: 5px;
-  margin-left: 40px;
-  font-family: 'ABeeZee';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 164%;
-  font-feature-settings: 'ss07' on;
-  color: #7A808C;
-  opacity: 0.7;
-}
-
-.chatbox-options svg {
-  margin: 10px 20px 0px 0px;
-  width: 25px;
-  height: 25px;
-  color: #7A808C;
+  z-index: 2;
 }
 
 .chatbox-messages {
-  padding: 10px;
-  flex-grow: 1;
+  flex: 1;
+  padding: 20px;
   overflow-y: auto;
-  margin-bottom: 10px;
-  background: #f8f9fa;
-  z-index: 1;
-  transition: all ease 0.5s;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
-.chatbox-message {
-  display: flex;
-  flex-direction: column;
+.chatbox-messages::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
 }
 
-.chatbox-message-body {
-  display: flex;
-  flex-grow: 1;
-  overflow-y: auto;
+.message {
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+  animation: floating 3s infinite;
 }
 
-.chatbox-message.user .chatbox-message-body {
-  justify-content: flex-end;
+.message.user {
+  background-color: #00c6ff;
+  background-image: linear-gradient(315deg, #00c6ff 0%, #0072ff 74%);
+  color: white;
+  align-self: flex-end;
+  transform: scale(0);
+  animation: none;
 }
 
-.chatbox-message.bot .chatbox-message-body {
-  justify-content: flex-start;
-}
-
-.chatbox-message-text {
-  margin-bottom: 10px;
-  margin: 10px;
-  padding: 14px;
-  border-radius: 10px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-}
-
-.chatbox-message.user .chatbox-message-text {
-  order: 1;
-  justify-content: flex-end;
-  background: #eee;
+.message.bot {
+  background-color: #f1f1f1;
   color: #000;
+  align-self: flex-start;
+  transform: scale(0);
+  animation: none;
 }
 
-.chatbox-message.bot .chatbox-message-text {
-  order: 2;
-  justify-content: flex-start;
-  background: #007bff;
-  color: #fff;
-}
-
-.chatbox-message.user .chatbot-message-avatar {
-  order: 2;
-}
-
-.chatbox-message.bot .chatbot-message-avatar {
-  order: 1;
-}
-
-.chatbox-message-products {
-  justify-content: center;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.chatbox-message-product {
-  margin: 0px 5px 0px 5px;
-}
-
-.chatbox-message-product .product-item {
-  zoom: calc(70%);
+.message.animating {
+  animation: zoom-in 0.3s forwards;
 }
 
 .chatbox-input {
   display: flex;
-  background: #e8ebf0;
-  border-radius: 20px;
-  padding: 5px;
-  margin: 15px 15px 50px 15px;
+  padding: 20px;
+  border-top: 1px solid #0072ff;
+  background-color: #001f3f;
 }
 
 .chatbox-input input {
-  flex-grow: 1;
-  padding: 10px;
-  border: none;
-  padding: 20px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-  background: #e8ebf0;
-}
-
-.chatbox-input *:focus {
-    outline: none;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #0072ff;
+  border-radius: 8px;
+  margin-right: 15px;
+  background-color: #00274d;
+  color: white;
 }
 
 .chatbox-input button {
-  padding: 10px;
+  padding: 15px 20px;
+  background-color: #FF0050;
+  color: white;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
-  background: none;
-  border-radius: 15px;
-  transition: all ease 0.5s;
-}
-
-.chatbox-input button svg {
-  width: 40px;
-  height: 40px;
-  color: #007bff;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .chatbox-input button:hover {
-  background-color: #ccc;
+  transform: scale(1.05);
+  background-color: #C00050;
+}
+
+@keyframes zoom-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
