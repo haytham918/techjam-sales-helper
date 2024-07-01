@@ -2,8 +2,10 @@
  * @typedef {Object} Product
  * @property {number} id
  * @property {string} name
+ * @property {string} name_short
  * @property {string} image_url
  * @property {string} link_url
+ * @property {string[]} tag
  * @property {number} price
  */
 export class Product {
@@ -48,8 +50,8 @@ export class Product {
 /**
  * @typedef {Object} Message
  * @property {string} sender
- * @property {string} text
  * @property {string} timestamp
+ * @property {string} text
  * @property {Product[]|null} products
  */
 export class Message {
