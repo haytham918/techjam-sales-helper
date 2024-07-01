@@ -17,21 +17,22 @@ export async function chat(req, res) {
       const productNames = productData
         .map((product) => `product name: ${product.name}`)
         .join(", ");
-      const systemMessage = { role: "system", "content": `${productNames}. Based on the user's needs, I recommend: ` };
+      const systemMessage = { role: "system", content: `${productNames}. Based on the user's needs, I recommend: ` };
       req.session.dialog = [];
       // Push the system prompt to dialog
       req.session.dialog.push(systemMessage);
     }
 
     req.session.dialog.push({ role: "user", content: userInput });
+    console.log(req.session.dialog);
 
     openai.chat.completions.create({
       model: "gpt-4o",
       messages: req.session.dialog,
-      max_tokens: 150,
+      max_tokens: 250,
       temperature: 0.7,
     }).then((response) => {
-      const openaiResponse = response.choices[0].message.content.trim();
+      const openaiResponse = response.choices[0].message.content;
       console.log("OpenAI response:", openaiResponse);
 
       // Push the response into the dialog as well
