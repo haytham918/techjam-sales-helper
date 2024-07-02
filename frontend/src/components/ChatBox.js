@@ -37,8 +37,19 @@ const ChatBox = () => {
     <div className="chatbox">
       <div className="chatbox-messages">
         {messages.map((msg, index) => (
-          <div key={index} className={`message ${msg.type} ${msg.animating ? 'animating' : ''}`}>
-            {msg.text}
+          <div key={index} className={`message-container ${msg.type}`}>
+            <img
+              src={
+                msg.type === 'user'
+                  ? './logo512.png'
+                  : './tiktok-logo.jpg'
+              }
+              alt={`${msg.type} avatar`}
+              className="avatar"
+            />
+            <div className={`message ${msg.type} ${msg.animating ? 'animating' : ''}`}>
+              <span>{msg.text}</span>
+            </div>
           </div>
         ))}
         <div ref={messagesEndRef} />
@@ -51,7 +62,9 @@ const ChatBox = () => {
           onKeyPress={handleKeyPress}
           placeholder="Type your message..."
         />
-        <button onClick={handleSend}>Send</button>
+        <button onClick={handleSend}>
+          <i className="fas fa-paper-plane"></i>
+        </button>
       </div>
     </div>
   );
