@@ -9,8 +9,7 @@ function App() {
       <header className="App-header">
         <ChatBox />
       </header>
-      <div className="tiktok-overlay-left"></div>
-      <div className="tiktok-overlay-right"></div>
+      <div className="tiktok-overlay"></div>
     </div>
   );
 }
