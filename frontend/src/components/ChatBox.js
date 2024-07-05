@@ -8,7 +8,7 @@ const PRODUCTS = [
     name: 'Item 1',
     imageUrl: './tiktok-logo.jpg',
     price: 1.99,
-    salesVolume: 5000
+    salesVolume: 5000 
   },
   {
     id: 2,
