@@ -1,6 +1,7 @@
 import express from 'express';
 import session from 'express-session';
 import { chat } from './chat.js';
+import crypto from 'crypto';
 
 const app = express();
 const PORT = process.env.PORT || 5001;
@@ -9,8 +10,8 @@ app.use(express.json());
 
 app.use(
   session({
-    secret: "djiawdommijaodmwaid",
-    resave: false,
+    secret: crypto.randomBytes(20).toString('hex'),
+    resave: true,
     saveUninitialized: true,
     cookie: { secure: false },
   })
