@@ -1,7 +1,7 @@
 import fs from "fs";
 import OpenAI from "openai";
 import { Message, Product } from "./model.js";
-const moment = require("moment");
+import moment from "moment";
 
 const productData = JSON.parse(fs.readFileSync("updated_product_info_v2.json"));
 
@@ -52,7 +52,7 @@ export async function chat(req, res) {
         const recommendedProducts = productData
           .filter((product) => productArray.includes(product.name_short))
           .map((product) =>
-            Product(
+            new Product(
               product.sku_id,
               product.name_short,
               product.price,
@@ -68,7 +68,7 @@ export async function chat(req, res) {
             ? descriptionText
             : "Sorry, no matching products found. Can you try again?";
         const time_stamp = moment().format("YYYY-MM-DD HH:mm");
-        const message = Message("ai", text, time_stamp, recommendedProducts);
+        const message = new Message("ai", text, time_stamp, recommendedProducts);
         res.json({ message: message });
       });
   } catch (error) {
