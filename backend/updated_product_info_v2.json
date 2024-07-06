@@ -1,7 +1,7 @@
 [
   {
     "sku_id": "100-100000910WOF",
-    "name_short": "AMD - Ryzen 7 7800X3D",
+    "name": "AMD - Ryzen 7 7800X3D",
     "price": "$449.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537139_sd.jpg;maxHeight=192;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-7-7800x3d-8-core-16-thread-4-2-ghz-5-0-ghz-max-boost-socket-am5-unlocked-desktop-processor-black/6537139.p?skuId=6537139",
@@ -13,7 +13,7 @@
   },
   {
     "sku_id": "100-100000061WOF",
-    "name_short": "AMD - Ryzen 9 5900X 4th Gen w/o Cooler",
+    "name": "AMD - Ryzen 9 5900X 4th Gen w/o Cooler",
     "price": "$549.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6438/6438942_sd.jpg;maxHeight=200;maxWidth=276",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-9-5900x-4th-gen-12-core-24-threads-unlocked-desktop-processor-without-cooler-black/6438942.p?skuId=6438942",
@@ -25,7 +25,7 @@
   },
   {
     "sku_id": "100-100000065BOX",
-    "name_short": "AMD - Ryzen 5 5600X 4th Gen w/ cooler",
+    "name": "AMD - Ryzen 5 5600X 4th Gen w/ cooler",
     "price": "$299.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6438/6438943_sd.jpg;maxHeight=200;maxWidth=278",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-5-5600x-4th-gen-6-core-12-threads-unlocked-desktop-processor-with-wraith-stealth-cooler-black/6438943.p?skuId=6438943",
@@ -37,7 +37,7 @@
   },
   {
     "sku_id": "BX8071514900K",
-    "name_short": "Intel - Core i9-14900K 14th Gen",
+    "name": "Intel - Core i9-14900K 14th Gen",
     "price": "$619.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560418_sd.jpg;maxHeight=200;maxWidth=248",
     "link_url": "https://www.bestbuy.com/site/intel-core-i9-14900k-14th-gen-24-core-32-thread-4-4ghz-6-0ghz-turbo-socket-lga-1700-unlocked-desktop-processor-multi/6560418.p?skuId=6560418",
@@ -49,7 +49,7 @@
   },
   {
     "sku_id": "100-100000593WOF",
-    "name_short": "AMD - Ryzen 5 7600X",
+    "name": "AMD - Ryzen 5 7600X",
     "price": "$299.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519479cv11d.jpg;maxHeight=200;maxWidth=259",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-5-7600x-6-core-12-thread-4-7ghz-5-3-ghz-max-boost-socket-am5-desktop-processor-silver/6519479.p?skuId=6519479",
@@ -61,7 +61,7 @@
   },
   {
     "sku_id": "BX8071514700K",
-    "name_short": "Intel - Core i7-14700K 14th Gen",
+    "name": "Intel - Core i7-14700K 14th Gen",
     "price": "$444.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560420_sd.jpg;maxHeight=200;maxWidth=249",
     "link_url": "https://www.bestbuy.com/site/intel-core-i7-14700k-14th-gen-20-core-28-thread-4-3ghz-5-6ghz-turbo-socket-lga-1700-unlocked-desktop-processor-multi/6560420.p?skuId=6560420",
@@ -73,7 +73,7 @@
   },
   {
     "sku_id": "100-100000908WOF",
-    "name_short": "AMD - Ryzen 9 7950X3D",
+    "name": "AMD - Ryzen 9 7950X3D",
     "price": "$699.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537138_sd.jpg;maxHeight=192;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-9-7950x3d-16-core-32-thread-4-2-ghz-5-7-ghz-max-boost-socket-am5-unlocked-desktop-processor-black/6537138.p?skuId=6537138",
@@ -85,7 +85,7 @@
   },
   {
     "sku_id": "100-100000589WOF",
-    "name_short": "AMD - Ryzen 9 7900X",
+    "name": "AMD - Ryzen 9 7900X",
     "price": "$549.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519473cv11d.jpg;maxHeight=190;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-9-7900x-12-core-24-thread-4-7-ghz-5-6-ghz-max-boost-socket-am5-desktop-processor-silver/6519473.p?skuId=6519473",
@@ -97,7 +97,7 @@
   },
   {
     "sku_id": "100-100000063WOF",
-    "name_short": "AMD - Ryzen 7 5800X 4th Gen",
+    "name": "AMD - Ryzen 7 5800X 4th Gen",
     "price": "$449.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439000_sd.jpg;maxHeight=200;maxWidth=277",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-7-5800x-4th-gen-8-core-16-threads-unlocked-desktop-processor-without-cooler-black/6439000.p?skuId=6439000",
@@ -109,7 +109,7 @@
   },
   {
     "sku_id": "BX8071512700K",
-    "name_short": "Intel - Core i7-12700K",
+    "name": "Intel - Core i7-12700K",
     "price": "$419.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6483/6483672_sd.jpg;maxHeight=200;maxWidth=262",
     "link_url": "https://www.bestbuy.com/site/intel-core-i7-12700k-desktop-processor-12-8p-4e-cores-up-to-5-0-ghz-unlocked-lga1700-600-series-chipset-125w-grey-black-gold/6483672.p?skuId=6483672",
@@ -121,7 +121,7 @@
   },
   {
     "sku_id": "BX8071513700K",
-    "name_short": "Intel - Core i7-13700K 13th Gen",
+    "name": "Intel - Core i7-13700K 13th Gen",
     "price": "$489.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6521/6521194_sd.jpg;maxHeight=200;maxWidth=263",
     "link_url": "https://www.bestbuy.com/site/intel-core-i7-13700k-13th-gen-16-cores-8-p-cores-8-e-cores-30m-cache-3-4-to-5-4-ghz-lga1700-unlocked-desktop-processor-grey-black-gold/6521194.p?skuId=6521194",
@@ -133,7 +133,7 @@
   },
   {
     "sku_id": "BX8071513600K",
-    "name_short": "Intel - Core i5-13600K 13th Gen",
+    "name": "Intel - Core i5-13600K 13th Gen",
     "price": "$339.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6521/6521196_sd.jpg;maxHeight=200;maxWidth=263",
     "link_url": "https://www.bestbuy.com/site/intel-core-i5-13600k-13th-gen-14-cores-6-p-cores-8-e-cores-24m-cache-3-5-to-5-1-ghz-lga1700-unlocked-desktop-processor-grey-black-gold/6521196.p?skuId=6521196",
@@ -145,7 +145,7 @@
   },
   {
     "sku_id": "100-100000651WOF",
-    "name_short": "AMD - Ryzen 7 5800X3D",
+    "name": "AMD - Ryzen 7 5800X3D",
     "price": "$449.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510767_sd.jpg;maxHeight=200;maxWidth=278",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-7-5800x3d-3-4-ghz-eight-core-am4-processor-black/6510767.p?skuId=6510767",
@@ -157,7 +157,7 @@
   },
   {
     "sku_id": "BX8071513900K",
-    "name_short": "Intel - Core i9-13900K 13th Gen",
+    "name": "Intel - Core i9-13900K 13th Gen",
     "price": "$689.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6521/6521190_sd.jpg;maxHeight=200;maxWidth=273",
     "link_url": "https://www.bestbuy.com/site/intel-core-i9-13900k-13th-gen-24-cores-8-p-cores-16-e-cores-36m-cache-3-to-5-8-ghz-lga1700-unlocked-desktop-processor-grey-black-gold/6521190.p?skuId=6521190",
@@ -169,7 +169,7 @@
   },
   {
     "sku_id": "100-100000592BOX",
-    "name_short": "AMD - Ryzen 7 7700",
+    "name": "AMD - Ryzen 7 7700",
     "price": "$246.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530447_sd.jpg;maxHeight=200;maxWidth=200",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-7-7700-8-core-16-thread-3-8-ghz-5-3-ghz-max-boost-socket-am5-unlocked-desktop-processor-silver/6530447.p?skuId=6530447",
@@ -181,7 +181,7 @@
   },
   {
     "sku_id": "100-100000059WOF",
-    "name_short": "AMD - Ryzen 9 5950X 4th Gen w/o cooler",
+    "name": "AMD - Ryzen 9 5950X 4th Gen w/o cooler",
     "price": "$799.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6438/6438941_sd.jpg;maxHeight=200;maxWidth=276",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-9-5950x-4th-gen-16-core-32-threads-unlocked-desktop-processor-without-cooler-black/6438941.p?skuId=6438941",
@@ -193,7 +193,7 @@
   },
   {
     "sku_id": "BX8071514600K",
-    "name_short": "Intel - Core i5-14600K 14th Gen",
+    "name": "Intel - Core i5-14600K 14th Gen",
     "price": "$339.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560423_sd.jpg;maxHeight=200;maxWidth=249",
     "link_url": "https://www.bestbuy.com/site/intel-core-i5-14600k-14th-gen-14-core-20-thread-4-0ghz-5-3ghz-turbo-socket-lga-1700-unlocked-desktop-processor-multi/6560423.p?skuId=6560423",
@@ -205,7 +205,7 @@
   },
   {
     "sku_id": "100-100001488BOX",
-    "name_short": "AMD - Ryzen 5 5600GT",
+    "name": "AMD - Ryzen 5 5600GT",
     "price": "$105.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573563_sd.jpg;maxHeight=200;maxWidth=273",
     "link_url": "https://www.bestbuy.com/site/amd-ryzen-5-5600gt-6-core-12-thread-3-6-ghz-4-6-ghz-max-boost-socket-am4-unlocked-desktop-processor-silver/6573563.p?skuId=6573563",
@@ -217,7 +217,7 @@
   },
   {
     "sku_id": "GV-N4060WF2OC-8GD",
-    "name_short": "GIGABYTE GeForce RTX 4060 WINDFORCE OC 8GB",
+    "name": "GIGABYTE GeForce RTX 4060 WINDFORCE OC 8GB",
     "price": "$299.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6548/6548535_sd.jpg;maxHeight=131;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/gigabyte-nvidia-geforce-rtx-4060-windforce-oc-8gb-gddr6-pci-express-4-0-graphics-card-black/6548535.p?skuId=6548535",
@@ -229,7 +229,7 @@
   },
   {
     "sku_id": "RTX 3060 Ventus 3X 12G OC",
-    "name_short": "MSI GeForce RTX 3060 Ventus 3X 12G OC 12GB",
+    "name": "MSI GeForce RTX 3060 Ventus 3X 12G OC 12GB",
     "price": "$299.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452940_sd.jpg;maxHeight=195;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/msi-nvidia-geforce-rtx-3060-ventus-3x-12g-oc-12gb-gddr6-pci-express-4-0-graphics-card-black/6452940.p?skuId=6452940",
@@ -241,7 +241,7 @@
   },
   {
     "sku_id": "RX-665X8DFDR",
-    "name_short": "XFX SPEEDSTER SWFT210 RX 6650XT 8GB",
+    "name": "XFX SPEEDSTER SWFT210 RX 6650XT 8GB",
     "price": "$299.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6513/6513906_sd.jpg;maxHeight=200;maxWidth=147",
     "link_url": "https://www.bestbuy.com/site/xfx-speedster-swft210-amd-radeon-rx-6650xt-core-8gb-gddr6-pci-express-4-0-gaming-graphics-card-black/6513906.p?skuId=6513906",
@@ -253,7 +253,7 @@
   },
   {
     "sku_id": "TUF-RTX4080S-O16G-GAMING",
-    "name_short": "ASUS TUF Gaming RTX 4080S OC 16GB",
+    "name": "ASUS TUF Gaming RTX 4080S OC 16GB",
     "price": "$1,099.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6574/6574587_sd.jpg;maxHeight=93;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/asus-tuf-gaming-nvidia-geforce-rtx-4080-super-overclock-16gb-gddr6x-pci-express-4-0-graphics-card-black/6574587.p?skuId=6574587",
@@ -265,7 +265,7 @@
   },
   {
     "sku_id": "TUF-RTX4070TIS-O16G-GAMING",
-    "name_short": "ASUS TUF Gaming RTX 4070 Ti OC 16GB",
+    "name": "ASUS TUF Gaming RTX 4070 Ti OC 16GB",
     "price": "$825.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571574_sd.jpg;maxHeight=97;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/asus-tuf-gaming-nvidia-geforce-rtx-4070-ti-super-overclock-16gb-gddr6x-pci-express-4-0-graphics-card-black/6571574.p?skuId=6571574",
@@ -277,7 +277,7 @@
   },
   {
     "sku_id": "RX-68XLAQBDR",
-    "name_short": "XFX Speedster SWFT319 RX 6800 16GB",
+    "name": "XFX Speedster SWFT319 RX 6800 16GB",
     "price": "$429.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559272_sd.jpg;maxHeight=200;maxWidth=128",
     "link_url": "https://www.bestbuy.com/site/xfx-speedster-swft319-amd-radeon-rx-6800-16gb-gddr6-pci-express-4-0-gaming-graphics-card-black/6559272.p?skuId=6559272",
@@ -289,7 +289,7 @@
   },
   {
     "sku_id": "DUAL-RTX4070S-O12G-EVO",
-    "name_short": "ASUS Dual RTX 4070S EVO OC 12GB",
+    "name": "ASUS Dual RTX 4070S EVO OC 12GB",
     "price": "$599.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6579/6579771_sd.jpg;maxHeight=113;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/asus-dual-nvidia-geforce-rtx-4070-super-evo-overclock-12gb-gddr6x-pci-express-4-0-graphics-card-black/6579771.p?skuId=6579771",
@@ -301,7 +301,7 @@
   },
   {
     "sku_id": "VCG4060T8DFXPB1-O",
-    "name_short": "PNY GeForce RTX 4060 Ti 8GB OC",
+    "name": "PNY GeForce RTX 4060 Ti 8GB OC",
     "price": "$399.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562423_sd.jpg;maxHeight=181;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/pny-nvidia-geforce-rtx-4060-ti-8gb-oc-gddr6-pcie-gen-4-x16-graphics-card-with-dual-fan-black/6562423.p?skuId=6562423",
@@ -313,7 +313,7 @@
   },
   {
     "sku_id": "G407S12GV3XC",
-    "name_short": "MSI GeForce RTX 4070S VENTUS 3X OC 12GB",
+    "name": "MSI GeForce RTX 4070S VENTUS 3X OC 12GB",
     "price": "$629.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571863_sd.jpg;maxHeight=172;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/msi-nvidia-geforce-rtx-4070-super-12gb-ventus-3x-oc-12gb-gddr6x-pci-express-4-0-graphics-card-black/6571863.p?skuId=6571863",
@@ -325,7 +325,7 @@
   },
   {
     "sku_id": "GV-N3060GAMING OC-12GD Rev2.0",
-    "name_short": "GIGABYTE GeForce RTX 3060 12GB",
+    "name": "GIGABYTE GeForce RTX 3060 12GB",
     "price": "$299.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468931_sd.jpg;maxHeight=90;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/gigabyte-nvidia-geforce-rtx-3060-12gb-gddr6-pci-express-4-0-graphics-card-black/6468931.p?skuId=6468931",
@@ -337,7 +337,7 @@
   },
   {
     "sku_id": "GV-N407SWF3OC-12GD",
-    "name_short": "GIGABYTE GeForce RTX 4070S Windforce OC 12GB",
+    "name": "GIGABYTE GeForce RTX 4070S Windforce OC 12GB",
     "price": "$599.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572362_sd.jpg;maxHeight=104;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/gigabyte-nvidia-geforce-rtx-4070-super-windforce-oc-12gb-gddr6x-pci-express-4-0-graphics-card-black/6572362.p?skuId=6572362",
@@ -349,7 +349,7 @@
   },
   {
     "sku_id": "RX-675XYJFDR",
-    "name_short": "XFX SPEEDSTER QICK319 RX 6750XT 12GB",
+    "name": "XFX SPEEDSTER QICK319 RX 6750XT 12GB",
     "price": "$369.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571303_sd.jpg;maxHeight=90;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/xfx-speedster-qick319-amd-radeon-rx-6750xt-core-12gb-gddr6-pci-express-4-0-gaming-graphics-card-black/6571303.p?skuId=6571303",
@@ -361,7 +361,7 @@
   },
   {
     "sku_id": "RX-79GMERCBR",
-    "name_short": "XFX Radeon RX 7900GRE 16GB",
+    "name": "XFX Radeon RX 7900GRE 16GB",
     "price": "$569.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580643_sd.jpg;maxHeight=200;maxWidth=127",
     "link_url": "https://www.bestbuy.com/site/xfx-radeon-rx-7900gre-16gb-gddr6-pci-express-4-0-gaming-graphics-card-black/6580643.p?skuId=6580643",
@@ -373,7 +373,7 @@
   },
   {
     "sku_id": "RTX 3050 VENTUS 2X XS 8G OC",
-    "name_short": "MSI NVIDIA RTX 3050 VENTUS 2X XS OC 8GB",
+    "name": "MSI NVIDIA RTX 3050 VENTUS 2X XS OC 8GB",
     "price": "$219.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560971_sd.jpg;maxHeight=200;maxWidth=291",
     "link_url": "https://www.bestbuy.com/site/msi-nvidia-rtx-3050-ventus-2x-xs-8g-oc-8gb-gddr6-pci-express-4-0-graphics-card-black/6560971.p?skuId=6560971",
@@ -385,8 +385,7 @@
   },
   {
     "sku_id": "RTX 4070 VENTUS 3X 12G OC",
-    "name_short": "MSI GeForce RTX 4070 VENTUS 3X OC 12GB",
-
+    "name": "MSI GeForce RTX 4070 VENTUS 3X OC 12GB",
     "price": "$554.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6539/6539666_sd.jpg;maxHeight=179;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/msi-nvidia-geforce-rtx-4070-12gb-ventus-3x-oc-12gb-gddr6x-pci-express-4-0-graphics-card-black/6539666.p?skuId=6539666",
@@ -398,7 +397,7 @@
   },
   {
     "sku_id": "900-1G141-2534-000",
-    "name_short": "NVIDIA GeForce RTX 4070S 12GB",
+    "name": "NVIDIA GeForce RTX 4070S 12GB",
     "price": "$599.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6570/6570226cv1d.jpg;maxHeight=100;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/nvidia-geforce-rtx-4070-super-12gb-gddr6x-graphics-card-titanium-black/6570226.p?skuId=6570226",
@@ -410,7 +409,7 @@
   },
   {
     "sku_id": "RX-78TMERCBR",
-    "name_short": "XFX SPEEDSTER MERC319 RX 7800XT 16GB",
+    "name": "XFX SPEEDSTER MERC319 RX 7800XT 16GB",
     "price": "$539.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6561/6561517_sd.jpg;maxHeight=200;maxWidth=128",
     "link_url": "https://www.bestbuy.com/site/xfx-speedster-merc319-amd-radeon-rx-7800xt-16gb-gddr6-pci-express-4-0-graphics-card-black/6561517.p?skuId=6561517",
@@ -422,7 +421,7 @@
   },
   {
     "sku_id": "CT2K16G4SFRA32A",
-    "name_short": "Crucial 2x16GB DDR4 Laptop Memory Gn",
+    "name": "Crucial 2x16GB DDR4 Laptop Memory Gn",
     "price": "$71.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462508_sd.jpg;maxHeight=106;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/crucial-32gb-kit-2x16gb-ddr4-3200mhz-c22-sodimm-laptop-memory-kit-green/6462508.p?skuId=6462508",
@@ -434,7 +433,7 @@
   },
   {
     "sku_id": "CMH32GX5M2E6000C36",
-    "name_short": "CORSAIR VENGEANCE RGB 2x16GB DDR5 Desktop Memory Bk",
+    "name": "CORSAIR VENGEANCE RGB 2x16GB DDR5 Desktop Memory Bk",
     "price": "$112.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562314_sd.jpg;maxHeight=100;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-rgb-32gb-2x16gb-ddr5-6000mhz-c36-udimm-desktop-memory-black/6562314.p?skuId=6562314",
@@ -446,7 +445,7 @@
   },
   {
     "sku_id": "CMW32GX4M2D3600C18",
-    "name_short": "CORSAIR VENGEANCE RGB PRO 2x16GB DDR4 Desktop Memory Bk",
+    "name": "CORSAIR VENGEANCE RGB PRO 2x16GB DDR4 Desktop Memory Bk",
     "price": "$79.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6449/6449223_sd.jpg;maxHeight=104;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-rgb-pro-32gb-2x16gb-ddr4-3600mhz-c18-udimm-desktop-memory-black/6449223.p?skuId=6449223",
@@ -458,7 +457,7 @@
   },
   {
     "sku_id": "CMK32GX4M2D3600C18",
-    "name_short": "CORSAIR VENGEANCE LPX 2x16GB DDR4 Desktop Memory Bk",
+    "name": "CORSAIR VENGEANCE LPX 2x16GB DDR4 Desktop Memory Bk",
     "price": "$67.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6470/6470356_sd.jpg;maxHeight=73;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-lpx-32gb-2x16gb-ddr4-3600mhz-c18-udimm-desktop-memory-black/6470356.p?skuId=6470356",
@@ -470,7 +469,7 @@
   },
   {
     "sku_id": "CMK32GX4M2E3200C16",
-    "name_short": "CORSAIR VENGEANCE LPX 2x16GB DDR4 Desktop Memory Bk",
+    "name": "CORSAIR VENGEANCE LPX 2x16GB DDR4 Desktop Memory Bk",
     "price": "$63.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6448/6448611_sd.jpg;maxHeight=74;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-lpx-32gb-2x16gb-ddr4-3200mhz-c16-udimm-desktop-memory-black/6448611.p?skuId=6448611",
@@ -482,7 +481,7 @@
   },
   {
     "sku_id": "CMH64GX5M2Y6400C32",
-    "name_short": "CORSAIR VENGEANCE RGB 2x32GB DDR5 Desktop Memory Bk",
+    "name": "CORSAIR VENGEANCE RGB 2x32GB DDR5 Desktop Memory Bk",
     "price": "$217.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576369_sd.jpg;maxHeight=100;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-rgb-64gb-2x32gb-ddr5-6400mhz-c32-udimm-desktop-memory-black/6576369.p?skuId=6576369",
@@ -494,7 +493,7 @@
   },
   {
     "sku_id": "CMK32GX5M2B5600C40",
-    "name_short": "CORSAIR VENGEANCE 2x16GB DDR5 Desktop Memory Bk",
+    "name": "CORSAIR VENGEANCE 2x16GB DDR5 Desktop Memory Bk",
     "price": "$99.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562313_sd.jpg;maxHeight=121;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-32gb-2x16gb-ddr5-5600mhz-c40-udimm-desktop-memory-black/6562313.p?skuId=6562313",
@@ -506,7 +505,7 @@
   },
   {
     "sku_id": "CT2K16G4SFRA32A",
-    "name_short": "Crucial 2x16GB DDR4 Laptop Memory Gn",
+    "name": "Crucial 2x16GB DDR4 Laptop Memory Gn",
     "price": "$71.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462508_sd.jpg;maxHeight=106;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/crucial-32gb-kit-2x16gb-ddr4-3200mhz-c22-sodimm-laptop-memory-kit-green/6462508.p?skuId=6462508",
@@ -518,7 +517,7 @@
   },
   {
     "sku_id": "CMH32GX4M2D3600C18W",
-    "name_short": "CORSAIR VENGEANCE RGB PRO SL 2x16GB DDR4 Desktop Memory Wt",
+    "name": "CORSAIR VENGEANCE RGB PRO SL 2x16GB DDR4 Desktop Memory Wt",
     "price": "$79.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6457/6457798_sd.jpg;maxHeight=102;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-rgb-pro-sl-32gb-2x16gb-ddr4-3600mhz-c18-udimm-desktop-memory-white/6457798.p?skuId=6457798",
@@ -530,7 +529,7 @@
   },
   {
     "sku_id": "CMSX16GX5M1A4800C40",
-    "name_short": "CORSAIR VENGEANCE 1x16GB DDR5 Laptop Memory Bk",
+    "name": "CORSAIR VENGEANCE 1x16GB DDR5 Laptop Memory Bk",
     "price": "$43.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6516/6516932_sd.jpg;maxHeight=87;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-16gb-1x16gb-ddr5-4800mhz-c40-sodimm-laptop-memory-black/6516932.p?skuId=6516932",
@@ -542,7 +541,7 @@
   },
   {
     "sku_id": "CMH32GX5M2E6000C36W",
-    "name_short": "CORSAIR VENGEANCE RGB 2x16GB DDR5 Desktop Memory Wt",
+    "name": "CORSAIR VENGEANCE RGB 2x16GB DDR5 Desktop Memory Wt",
     "price": "$124.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562319_sd.jpg;maxHeight=122;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-rgb-32gb-2x16gb-ddr5-6000mhz-c36-udimm-desktop-memory-white/6562319.p?skuId=6562319",
@@ -554,7 +553,7 @@
   },
   {
     "sku_id": "CT2K16G56C46S5",
-    "name_short": "Crucial 2x16GB DDR5 Laptop Memory Bk",
+    "name": "Crucial 2x16GB DDR5 Laptop Memory Bk",
     "price": "$106.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580514_sd.jpg;maxHeight=104;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/crucial-32gb-kit-2x16gb-ddr5-5600mhz-c46-sodimm-laptop-memory-black/6580514.p?skuId=6580514",
@@ -566,7 +565,7 @@
   },
   {
     "sku_id": "CP2K32G4DFRA32A",
-    "name_short": "Crucial Pro 2x32GB DDR4 Desktop Memory Bk",
+    "name": "Crucial Pro 2x32GB DDR4 Desktop Memory Bk",
     "price": "$123.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543930_sd.jpg;maxHeight=65;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/crucial-pro-64gb-kit-2x32gb-ddr4-3200mhz-c22-udimm-desktop-memory-kit-black/6543930.p?skuId=6543930",
@@ -578,7 +577,7 @@
   },
   {
     "sku_id": "MD16GK2D4320016AXR",
-    "name_short": "PNY XLR8 Gaming 2x8GB DDR4 Desktop Memory Rd",
+    "name": "PNY XLR8 Gaming 2x8GB DDR4 Desktop Memory Rd",
     "price": "$39.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5878/5878702_sd.jpg;maxHeight=136;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/pny-xlr8-gaming-16gb-2x8gb-3200mhz-ddr4-dram-pc4-25600-cl16-1-35v-dual-channel-udimm-desktop-memory-kit-red/5878702.p?skuId=5878702",
@@ -590,7 +589,7 @@
   },
   {
     "sku_id": "CMW32GX4M2E3200C16",
-    "name_short": "CORSAIR VENGEANCE RGB PRO 2x16GB DDR4 Desktop Memory Bk",
+    "name": "CORSAIR VENGEANCE RGB PRO 2x16GB DDR4 Desktop Memory Bk",
     "price": "$92.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6448/6448612_sd.jpg;maxHeight=104;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-rgb-pro-32gb-2x16gb-ddr4-3200mhz-c16-udimm-desktop-memory-black/6448612.p?skuId=6448612",
@@ -602,7 +601,7 @@
   },
   {
     "sku_id": "CMSX32GX4M1A3200C22",
-    "name_short": "CORSAIR VENGEANCE 1x32GB DDR4 Laptop Memory Bk",
+    "name": "CORSAIR VENGEANCE 1x32GB DDR4 Laptop Memory Bk",
     "price": "$57.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6516/6516931cv1d.jpg;maxHeight=87;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/corsair-vengeance-series-32gb-1x32gb-ddr4-3200mhz-c22-sodimm-laptop-memory-black/6516931.p?skuId=6516931",
@@ -614,7 +613,7 @@
   },
   {
     "sku_id": "CP2K16G56C46U5",
-    "name_short": "Crucial Pro 2x16GB DDR5 Desktop Memory Bk",
+    "name": "Crucial Pro 2x16GB DDR5 Desktop Memory Bk",
     "price": "$104.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543928_sd.jpg;maxHeight=63;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/crucial-pro-32gb-2x16gb-ddr5-5600mhz-c46-udimm-desktop-memory-black/6543928.p?skuId=6543928",
@@ -626,7 +625,7 @@
   },
   {
     "sku_id": "LS32CG512ENXZA",
-    "name_short": "Samsung Odyssey G51C 32\" QHD Gaming Monitor",
+    "name": "Samsung Odyssey G51C 32\" QHD Gaming Monitor",
     "price": "$229.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6532/6532282_sd.jpg;maxHeight=169;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/samsung-odyssey-g51c-32-qhd-freesync-premium-gaming-monitor-with-hdr10-displayport-hdmi-black/6532282.p?skuId=6532282",
@@ -638,7 +637,7 @@
   },
   {
     "sku_id": "527SH",
-    "name_short": "HP 27\" FHD 100Hz Monitor",
+    "name": "HP 27\" FHD 100Hz Monitor",
     "price": "$149.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573720_sd.jpg;maxHeight=133;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-27-ips-led-fhd-100hz-monitor-with-adjustable-height-hdmi-vga-silver-black/6573720.p?skuId=6573720",
@@ -650,7 +649,7 @@
   },
   {
     "sku_id": "LS27BG402ENXGO",
-    "name_short": "Samsung 27\" Odyssey FHD 240Hz Gaming Monitor",
+    "name": "Samsung 27\" Odyssey FHD 240Hz Gaming Monitor",
     "price": "$249.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6507/6507926_sd.jpg;maxHeight=165;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/samsung-27-odyssey-fhd-ips-240hz-g-sync-gaming-monitor-black/6507926.p?skuId=6507926",
@@ -662,7 +661,7 @@
   },
   {
     "sku_id": "KA242Y Ebi",
-    "name_short": "Acer KA242Y Ebi 23.8\" FHD 100Hz Monitor",
+    "name": "Acer KA242Y Ebi 23.8\" FHD 100Hz Monitor",
     "price": "$89.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6540/6540943_sd.jpg;maxHeight=156;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/acer-ka242y-ebi-23-8-full-hd-ips-monitor-amd-freesync-100hz-refresh-rate-1ms-vrb-srgb-99-1-x-hdmi-1-4-1-x-vga-black/6540943.p?skuId=6540943",
@@ -674,7 +673,7 @@
   },
   {
     "sku_id": "LF27T350FHNXZA",
-    "name_short": "Samsung 27\" T350 Series FHD Monitor",
+    "name": "Samsung 27\" T350 Series FHD Monitor",
     "price": "$119.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420869_sd.jpg;maxHeight=159;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/samsung-27-t350-series-ips-fhd-amd-freesync-monitor-vesa-hdmi-vga-dark-blue-gray/6420869.p?skuId=6420869",
@@ -686,7 +685,7 @@
   },
   {
     "sku_id": "LS24AG320NNXZA",
-    "name_short": "Samsung Odyssey G3 24\" 165Hz Gaming Monitor",
+    "name": "Samsung Odyssey G3 24\" 165Hz Gaming Monitor",
     "price": "$129.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6500/6500802_sd.jpg;maxHeight=178;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/samsung-odyssey-g3-24-led-freesync-premium-165hz-1ms-gaming-monitor-displayport-hdmi-black/6500802.p?skuId=6500802",
@@ -698,7 +697,7 @@
   },
   {
     "sku_id": "M22f",
-    "name_short": "HP 21.5\" FHD FreeSync Monitor",
+    "name": "HP 21.5\" FHD FreeSync Monitor",
     "price": "$99.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455487_sd.jpg;maxHeight=156;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-21-5-ips-led-full-hd-freesync-monitor-hdmi-vga-silver-black/6455487.p?skuId=6455487",
@@ -710,7 +709,7 @@
   },
   {
     "sku_id": "27GP83B-B.AUS",
-    "name_short": "LG UltraGear 27\" QHD Monitor",
+    "name": "LG UltraGear 27\" QHD Monitor",
     "price": "$299.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451081_sd.jpg;maxHeight=189;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lg-ultragear-27-nano-ips-qhd-1-ms-g-sync-compatible-monitor-with-hdr-black/6451081.p?skuId=6451081",
@@ -722,7 +721,7 @@
   },
   {
     "sku_id": "34WQ500-B",
-    "name_short": "LG 34\" UltraWide FHD 100Hz Monitor",
+    "name": "LG 34\" UltraWide FHD 100Hz Monitor",
     "price": "$229.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505062_sd.jpg;maxHeight=120;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lg-34-ips-led-ultrawide-fhd-100hz-amd-freesync-monitor-with-hdr-hdmi-displayport-black/6505062.p?skuId=6505062",
@@ -734,7 +733,7 @@
   },
   {
     "sku_id": "HHGMY",
-    "name_short": "Dell S2721HGF 27\" Curved FHD Gaming Monitor",
+    "name": "Dell S2721HGF 27\" Curved FHD Gaming Monitor",
     "price": "$199.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6425/6425903_sd.jpg;maxHeight=157;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/dell-s2721hgf-27-gaming-led-curved-fhd-freesync-and-g-sync-compatible-monitor-displayport-hdmi-black/6425903.p?skuId=6425903",
@@ -746,7 +745,7 @@
   },
   {
     "sku_id": "XF273 M3bmiiprx",
-    "name_short": "Acer Nitro XF273Y 27\" 180Hz Monitor",
+    "name": "Acer Nitro XF273Y 27\" 180Hz Monitor",
     "price": "$159.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6555/6555710_sd.jpg;maxHeight=172;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/acer-nitro-xf273y-27-ips-lcd-180hz-freesync-monitor-hdmi-dp-black/6555710.p?skuId=6555710",
@@ -758,7 +757,7 @@
   },
   {
     "sku_id": "KA272 Ebi",
-    "name_short": "Acer KA272 Ebi 27\" FHD Monitor",
+    "name": "Acer KA272 Ebi 27\" FHD Monitor",
     "price": "$99.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6540/6540944_sd.jpg;maxHeight=156;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/acer-ka272-ebi-27-full-hd-ips-monitor-amd-freesync-technology-1-x-hdmi-1-4-1-x-vga-black/6540944.p?skuId=6540944",
@@ -770,7 +769,7 @@
   },
   {
     "sku_id": "LS34C502GANXZA",
-    "name_short": "Samsung ViewFinity S5 34\" QHD Monitor",
+    "name": "Samsung ViewFinity S5 34\" QHD Monitor",
     "price": "$249.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6532/6532277_sd.jpg;maxHeight=113;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/samsung-34-viewfinity-s5-ultrawide-qhd-100hz-amd-freesync-monitor-with-hdr10-displayport-hdmi-black/6532277.p?skuId=6532277",
@@ -782,7 +781,7 @@
   },
   {
     "sku_id": "27UP600-W.AUM",
-    "name_short": "LG 27\" 4K UHD 60Hz Monitor",
+    "name": "LG 27\" 4K UHD 60Hz Monitor",
     "price": "$249.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511336_sd.jpg;maxHeight=150;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lg-27-ips-led-4k-uhd-60hz-amd-freesync-monitor-with-hdr-displayport-hdmi-black/6511336.p?skuId=6511336",
@@ -794,7 +793,7 @@
   },
   {
     "sku_id": "S3222DGM",
-    "name_short": "Dell S3222DGM 32\" QHD Curved Gaming Monitor",
+    "name": "Dell S3222DGM 32\" QHD Curved Gaming Monitor",
     "price": "$329.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6473/6473700_sd.jpg;maxHeight=151;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/dell-s3222dgm-32-led-curved-qhd-freesync-gaming-monitor-displayport-hdmi-black/6473700.p?skuId=6473700",
@@ -806,7 +805,7 @@
   },
   {
     "sku_id": "Omen 34c",
-    "name_short": "HP OMEN 34\" QHD 165Hz Curved Gaming Monitor",
+    "name": "HP OMEN 34\" QHD 165Hz Curved Gaming Monitor",
     "price": "$349.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6540/6540004_sd.jpg;maxHeight=115;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-omen-34-va-led-curved-qhd-165hz-freesync-gaming-monitor-with-hdr-displayport-hdmi-audio-jack-black/6540004.p?skuId=6540004",
@@ -818,7 +817,7 @@
   },
   {
     "sku_id": "Omen 27qs",
-    "name_short": "HP OMEN 27\" QHD 240Hz Gaming Monitor",
+    "name": "HP OMEN 27\" QHD 240Hz Gaming Monitor",
     "price": "$349.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6536/6536814_sd.jpg;maxHeight=140;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-omen-27-ips-led-qhd-240hz-freesync-and-g-sync-compatible-gaming-monitor-with-hdr-displayport-hdmi-usb-black/6536814.p?skuId=6536814",
@@ -830,7 +829,7 @@
   },
   {
     "sku_id": "VG249Q3A",
-    "name_short": "ASUS TUF Gaming 23.8\" FHD 180Hz Monitor",
+    "name": "ASUS TUF Gaming 23.8\" FHD 180Hz Monitor",
     "price": "$169.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572364_sd.jpg;maxHeight=146;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/asus-tuf-gaming-23-8-ips-fhd-1080p-180hz-1ms-freesync-premium-gaming-monitor-displayport-hdmi-black/6572364.p?skuId=6572364",
@@ -842,7 +841,7 @@
   },
   {
     "sku_id": "4P4F5AA#ABA/HX-KB5ME2-US",
-    "name_short": "HyperX Alloy Core RGB Gaming Keyboard",
+    "name": "HyperX Alloy Core RGB Gaming Keyboard",
     "price": "$30.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6283/6283508_sd.jpg;maxHeight=93;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hyperx-alloy-core-full-size-wired-gaming-membrane-keyboard-with-rgb-lighting-black/6283508.p?skuId=6283508",
@@ -854,7 +853,7 @@
   },
   {
     "sku_id": "MWR53LL/A",
-    "name_short": "Apple Magic Keyboard for iPad Pro 13\"",
+    "name": "Apple Magic Keyboard for iPad Pro 13\"",
     "price": "$349.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535089_sd.jpg;maxHeight=152;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/apple-magic-keyboard-for-ipad-pro-13inch-m4-black/6535089.p?skuId=6535089",
@@ -866,7 +865,7 @@
   },
   {
     "sku_id": "920-004536",
-    "name_short": "Logitech MK270 Wireless Keyboard and Mouse",
+    "name": "Logitech MK270 Wireless Keyboard and Mouse",
     "price": "$22.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1440/1440638_sd.jpg;maxHeight=200;maxWidth=200",
     "link_url": "https://www.bestbuy.com/site/logitech-mk270-full-size-wireless-membrane-keyboard-and-mouse-bundle-for-pc-black/1440638.p?skuId=1440638",
@@ -878,7 +877,7 @@
   },
   {
     "sku_id": "920-008671",
-    "name_short": "Logitech MK540 Advanced Wireless Keyboard and Mouse",
+    "name": "Logitech MK540 Advanced Wireless Keyboard and Mouse",
     "price": "$45.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6215/6215118_sd.png;maxHeight=200;maxWidth=200",
     "link_url": "https://www.bestbuy.com/site/logitech-mk540-full-size-advanced-wireless-membrane-keyboard-and-mouse-combo-for-pc-black/6215118.p?skuId=6215118",
@@ -890,7 +889,7 @@
   },
   {
     "sku_id": "910-005469",
-    "name_short": "Logitech G502 HERO Wired Gaming Mouse",
+    "name": "Logitech G502 HERO Wired Gaming Mouse",
     "price": "$36.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6265/6265133_sd.jpg;maxHeight=115;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/logitech-g502-hero-wired-optical-gaming-mouse-with-rgb-lighting-black/6265133.p?skuId=6265133",
@@ -902,7 +901,7 @@
   },
   {
     "sku_id": "910-001675",
-    "name_short": "Logitech M310 Wireless Mouse",
+    "name": "Logitech M310 Wireless Mouse",
     "price": "$15.49",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1297/1297054_sd.jpg;maxHeight=200;maxWidth=219",
     "link_url": "https://www.bestbuy.com/site/logitech-m310-wireless-optical-ambidextrous-mouse-silver/1297054.p?skuId=1297054",
@@ -914,7 +913,7 @@
   },
   {
     "sku_id": "910-006556",
-    "name_short": "Logitech MX Master 3S Wireless Mouse",
+    "name": "Logitech MX Master 3S Wireless Mouse",
     "price": "$85.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6502/6502577_sd.jpg;maxHeight=159;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/logitech-mx-master-3s-wireless-laser-mouse-with-ultrafast-scrolling-black/6502577.p?skuId=6502577",
@@ -926,7 +925,7 @@
   },
   {
     "sku_id": "NS-PNP5008",
-    "name_short": "Insignia Mouse Pad",
+    "name": "Insignia Mouse Pad",
     "price": "$4.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7536/7536185_sa.jpg;maxHeight=200;maxWidth=262",
     "link_url": "https://www.bestbuy.com/site/insignia-mouse-pad-black/7536185.p?skuId=7536185",
@@ -938,7 +937,7 @@
   },
   {
     "sku_id": "BE-PMRF3B",
-    "name_short": "Best Buy Essentials Wireless Mouse",
+    "name": "Best Buy Essentials Wireless Mouse",
     "price": "$9.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6434/6434806_sd.jpg;maxHeight=200;maxWidth=191",
     "link_url": "https://www.bestbuy.com/site/best-buy-essentials-wireless-optical-standard-ambidextrous-mouse-with-usb-receiver-black/6434806.p?skuId=6434806",
@@ -950,7 +949,7 @@
   },
   {
     "sku_id": "910-004790",
-    "name_short": "Logitech M720 Triathlon Wireless Mouse",
+    "name": "Logitech M720 Triathlon Wireless Mouse",
     "price": "$32.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5592/5592421_sd.jpg;maxHeight=200;maxWidth=197",
     "link_url": "https://www.bestbuy.com/site/logitech-m720-triathlon-wireless-optical-mouse-black/5592421.p?skuId=5592421",
@@ -962,7 +961,7 @@
   },
   {
     "sku_id": "910-005280",
-    "name_short": "Logitech G305 LIGHTSPEED Wireless Gaming Mouse",
+    "name": "Logitech G305 LIGHTSPEED Wireless Gaming Mouse",
     "price": "$40.16",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6214/6214343_sd.jpg;maxHeight=200;maxWidth=215",
     "link_url": "https://www.bestbuy.com/site/logitech-g305-lightspeed-wireless-optical-6-programmable-button-gaming-mouse-with-12000-dpi-hero-sensor-black/6214343.p?skuId=6214343",
@@ -974,7 +973,7 @@
   },
   {
     "sku_id": "MMMQ3AM/A",
-    "name_short": "Apple Magic Mouse",
+    "name": "Apple Magic Mouse",
     "price": "$99.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6276/6276701_sd.jpg;maxHeight=200;maxWidth=151",
     "link_url": "https://www.bestbuy.com/site/apple-magic-mouse-black/6276701.p?skuId=6276701",
@@ -986,7 +985,7 @@
   },
   {
     "sku_id": "BE-PMBT6B",
-    "name_short": "Best Buy Essentials Bluetooth Mouse",
+    "name": "Best Buy Essentials Bluetooth Mouse",
     "price": "$16.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453629_sd.jpg;maxHeight=200;maxWidth=194",
     "link_url": "https://www.bestbuy.com/site/best-buy-essentials-lightweight-bluetooth-optical-standard-ambidextrous-mouse-with-6-button-black/6453629.p?skuId=6453629",
@@ -998,7 +997,7 @@
   },
   {
     "sku_id": "920-002836",
-    "name_short": "Logitech MK320 Wireless Keyboard and Mouse",
+    "name": "Logitech MK320 Wireless Keyboard and Mouse",
     "price": "$29.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1294/1294039cv11d.jpg;maxHeight=47;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/logitech-mk320-full-size-wireless-membrane-keyboard-and-mouse-bundle-black/1294039.p?skuId=1294039",
@@ -1010,7 +1009,7 @@
   },
   {
     "sku_id": "920-009437",
-    "name_short": "Logitech MK470 Wireless Keyboard and Mouse",
+    "name": "Logitech MK470 Wireless Keyboard and Mouse",
     "price": "$39.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6366/6366562_sd.jpg;maxHeight=200;maxWidth=200",
     "link_url": "https://www.bestbuy.com/site/logitech-mk470-full-size-wireless-scissor-keyboard-and-mouse-bundle-for-windows-with-quiet-clicks-black-gray/6366562.p?skuId=6366562",
@@ -1022,7 +1021,7 @@
   },
   {
     "sku_id": "910-006127",
-    "name_short": "Logitech M220 SILENT Wireless Mouse",
+    "name": "Logitech M220 SILENT Wireless Mouse",
     "price": "$14.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1ddff7ad-7acf-4191-9906-ae8f6b3486e6.jpg;maxHeight=200;maxWidth=200",
     "link_url": "https://www.bestbuy.com/site/logitech-m220-silent-wireless-optical-ambidextrous-mouse-graphite/6481446.p?skuId=6481446",
@@ -1034,7 +1033,7 @@
   },
   {
     "sku_id": "63429",
-    "name_short": "SteelSeries QcK XXL Gaming Mouse Pad",
+    "name": "SteelSeries QcK XXL Gaming Mouse Pad",
     "price": "$19.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6574/6574258_sd.jpg;maxHeight=171;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/steelseries-qck-cloth-gaming-mouse-pad-xxl-black/6574258.p?skuId=6574258",
@@ -1046,7 +1045,7 @@
   },
   {
     "sku_id": "RZ01-04870100-R3U1",
-    "name_short": "Razer Basilisk V3 X HyperSpeed Wireless Mouse",
+    "name": "Razer Basilisk V3 X HyperSpeed Wireless Mouse",
     "price": "$69.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538211_sd.jpg;maxHeight=200;maxWidth=174",
     "link_url": "https://www.bestbuy.com/site/razer-basilisk-v3-x-hyperspeed-customizable-wireless-gaming-mouse-black/6538211.p?skuId=6538211",
@@ -1058,7 +1057,7 @@
   },
   {
     "sku_id": "572Y5AA",
-    "name_short": "HyperX Pulsefire Mat XL Gaming Mouse Pad",
+    "name": "HyperX Pulsefire Mat XL Gaming Mouse Pad",
     "price": "$29.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6499/6499566_sd.jpg;maxHeight=94;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hyperx-pulsefire-mat-gaming-mouse-pad-xl-black/6499566.p?skuId=6499566",
@@ -1070,7 +1069,7 @@
   },
   {
     "sku_id": "14-fa0013dx",
-    "name_short": "HP Envy 2-in-1 14\" Touch Laptop - Ryzen 5, 16GB, 512GB SSD",
+    "name": "HP Envy 2-in-1 14\" Touch Laptop - Ryzen 5, 16GB, 512GB SSD",
     "price": "$499.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571087_sd.jpg;maxHeight=169;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-envy-2-in-1-14-wide-ultra-xga-touch-screen-laptop-amd-ryzen-5-16gb-memory-512gb-ssd-glacier-silver/6571087.p?skuId=6571087",
@@ -1082,7 +1081,7 @@
   },
   {
     "sku_id": "82QD00DHUS",
-    "name_short": "Lenovo Ideapad 1i 15.6\" Touch Laptop - i3, 8GB, 256GB SSD",
+    "name": "Lenovo Ideapad 1i 15.6\" Touch Laptop - i3, 8GB, 256GB SSD",
     "price": "$279.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571565_sd.jpg;maxHeight=137;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lenovo-ideapad-1i-15-6-fhd-touchscreen-laptop-intel-core-i3-1215u-with-8gb-memory-intel-uhd-graphics-256gb-ssd-cloud-gray/6571565.p?skuId=6571565",
@@ -1094,7 +1093,7 @@
   },
   {
     "sku_id": "15-dy5113dx",
-    "name_short": "HP 15.6\" Touch Laptop - i3, 8GB, 128GB SSD",
+    "name": "HP 15.6\" Touch Laptop - i3, 8GB, 128GB SSD",
     "price": "$279.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569669_sd.jpg;maxHeight=162;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-15-6-touch-screen-laptop-intel-core-i3-8gb-memory-128gb-ssd-natural-silver/6569669.p?skuId=6569669",
@@ -1106,7 +1105,7 @@
   },
   {
     "sku_id": "i7440-7304BLU-PUS",
-    "name_short": "Dell Inspiron 14\" 2-in-1 Touch Laptop - i7, 16GB, 1TB SSD",
+    "name": "Dell Inspiron 14\" 2-in-1 Touch Laptop - i7, 16GB, 1TB SSD",
     "price": "$699.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576386_sd.jpg;maxHeight=143;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/dell-inspiron-14-2-in-1-touch-laptop-intel-core-7-processor-16gb-memory-1tb-sdd-ice-blue/6576386.p?skuId=6576386",
@@ -1118,7 +1117,7 @@
   },
   {
     "sku_id": "i3520-5124BLK-PUS",
-    "name_short": "Dell Inspiron 15 Touch Laptop - i5, 8GB, 512GB SSD",
+    "name": "Dell Inspiron 15 Touch Laptop - i5, 8GB, 512GB SSD",
     "price": "$379.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573731_sd.jpg;maxHeight=115;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/dell-inspiron-15-touch-screen-laptop-intel-core-i5-8gb-512gb-ssd-carbon-black/6573731.p?skuId=6573731",
@@ -1130,7 +1129,7 @@
   },
   {
     "sku_id": "82R400DTUS",
-    "name_short": "Lenovo Ideapad 1 15.6\" Touch Laptop - Ryzen 7, 16GB, 512GB SSD",
+    "name": "Lenovo Ideapad 1 15.6\" Touch Laptop - Ryzen 7, 16GB, 512GB SSD",
     "price": "$479.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6555/6555683_sd.jpg;maxHeight=136;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lenovo-ideapad-1-15-6-full-hd-touchscreen-laptop-ryzen-7-5700u-with-16gb-memory-amd-radeon-graphics-512gb-ssd-cloud-gray/6555683.p?skuId=6555683",
@@ -1142,7 +1141,7 @@
   },
   {
     "sku_id": "MLY33LL/A",
-    "name_short": "Apple MacBook Air 13.6\" - M2, 8GB, 256GB SSD",
+    "name": "Apple MacBook Air 13.6\" - M2, 8GB, 256GB SSD",
     "price": "$849.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509650_sd.jpg;maxHeight=121;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/apple-macbook-air-13-6-laptop-m2-chip-8gb-memory-256gb-ssd-midnight/6509650.p?skuId=6509650",
@@ -1154,7 +1153,7 @@
   },
   {
     "sku_id": "14-fa0023dx",
-    "name_short": "HP Envy 2-in-1 14\" Touch Laptop - Ryzen 7, 16GB, 1TB SSD",
+    "name": "HP Envy 2-in-1 14\" Touch Laptop - Ryzen 7, 16GB, 1TB SSD",
     "price": "$699.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571077_sd.jpg;maxHeight=169;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-envy-2-in-1-14-wide-ultra-xga-touch-screen-laptop-amd-ryzen-7-16gb-memory-1tb-ssd-glacier-silver/6571077.p?skuId=6571077",
@@ -1166,7 +1165,7 @@
   },
   {
     "sku_id": "83DM0004US",
-    "name_short": "Lenovo Yoga 7 2-in-1 16\" Touch Laptop - Ryzen 5, 8GB, 512GB SSD",
+    "name": "Lenovo Yoga 7 2-in-1 16\" Touch Laptop - Ryzen 5, 8GB, 512GB SSD",
     "price": "$549.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571370_sd.jpg;maxHeight=151;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lenovo-yoga-7-2-in-1-16-2k-touchscreen-laptop-amd-ryzen-5-8640hs-with-8gb-memory-512gb-ssd-artic-grey/6571370.p?skuId=6571370",
@@ -1178,7 +1177,7 @@
   },
   {
     "sku_id": "82R700L5US",
-    "name_short": "Lenovo Flex 5i 14\" 2-in-1 Touch Laptop - i5, 8GB, 512GB SSD",
+    "name": "Lenovo Flex 5i 14\" 2-in-1 Touch Laptop - i5, 8GB, 512GB SSD",
     "price": "$479.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571563_sd.jpg;maxHeight=157;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lenovo-flex-5i-14-fhd-touchscreen-2-in-1-laptop-intel-core-i5-1235u-with-8-gb-memory-intel-iris-xe-graphics-512gb-ssd-storm-grey/6571563.p?skuId=6571563",
@@ -1190,7 +1189,7 @@
   },
   {
     "sku_id": "MRX33LL/A",
-    "name_short": "Apple MacBook Pro 14\" - M3 Pro, 18GB, 512GB SSD",
+    "name": "Apple MacBook Pro 14\" - M3 Pro, 18GB, 512GB SSD",
     "price": "$1,799.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534615_sd.jpg;maxHeight=121;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/apple-macbook-pro-14-laptop-m3-pro-chip-18gb-memory-14-core-gpu-512gb-ssd-space-black/6534615.p?skuId=6534615",
@@ -1202,7 +1201,7 @@
   },
   {
     "sku_id": "83DM0003US",
-    "name_short": "Lenovo Yoga 7 2-in-1 16\" Touch Laptop - Ryzen 7, 16GB, 1TB SSD",
+    "name": "Lenovo Yoga 7 2-in-1 16\" Touch Laptop - Ryzen 7, 16GB, 1TB SSD",
     "price": "$699.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571363_sd.jpg;maxHeight=151;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lenovo-yoga-7-2-in-1-16-2k-touchscreen-laptop-amd-ryzen-7-8840hs-with-16gb-memory-1tb-ssd-artic-grey/6571363.p?skuId=6571363",
@@ -1214,7 +1213,7 @@
   },
   {
     "sku_id": "82XJ0000US",
-    "name_short": "Lenovo IdeaPad Slim 3 Chromebook 14\" - Kompanio 520, 4GB, 64GB eMMC",
+    "name": "Lenovo IdeaPad Slim 3 Chromebook 14\" - Kompanio 520, 4GB, 64GB eMMC",
     "price": "$199.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531742_sd.jpg;maxHeight=158;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/lenovo-ideapad-slim-3-chromebook-laptop-14-fhd-touchscreen-laptop-mediatek-kompanio-520-4gb-memory-64gb-emmc-abyss-blue/6531742.p?skuId=6531742",
@@ -1226,7 +1225,7 @@
   },
   {
     "sku_id": "17-cn2083dx",
-    "name_short": "HP 17.3\" Laptop - i3, 8GB, 256GB SSD",
+    "name": "HP 17.3\" Laptop - i3, 8GB, 256GB SSD",
     "price": "$369.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569428_sd.jpg;maxHeight=154;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/hp-17-3-full-hd-laptop-intel-core-i3-8gb-memory-256gb-ssd-natural-silver/6569428.p?skuId=6569428",
@@ -1238,7 +1237,7 @@
   },
   {
     "sku_id": "i3520-7896BLK-PUS",
-    "name_short": "Dell Inspiron 15 Touch Laptop - i7, 16GB, 1TB SSD",
+    "name": "Dell Inspiron 15 Touch Laptop - i7, 16GB, 1TB SSD",
     "price": "$749.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6580/6580453_sd.jpg;maxHeight=112;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/dell-inspiron-15-3520-touch-laptop-intel-core-i7-processor-16gb-memory-1tb-ssd-carbon-black/6580453.p?skuId=6580453",
@@ -1250,7 +1249,7 @@
   },
   {
     "sku_id": "Q533MJ-U73050",
-    "name_short": "ASUS Vivobook Pro 15 OLED - i7, 16GB, RTX 3050, 1TB SSD",
+    "name": "ASUS Vivobook Pro 15 OLED - i7, 16GB, RTX 3050, 1TB SSD",
     "price": "$899.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568760_sd.jpg;maxHeight=101;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/asus-vivobook-pro-15-oled-laptop-intel-core-ultra-7-with-16gb-memory-nvidia-geforce-rtx-3050-1tb-ssd-earl-gray/6568760.p?skuId=6568760",
@@ -1262,7 +1261,7 @@
   },
   {
     "sku_id": "AV15-53P-54MV",
-    "name_short": "Acer Aspire Vero 15.6\" - i5, 8GB, 512GB SSD",
+    "name": "Acer Aspire Vero 15.6\" - i5, 8GB, 512GB SSD",
     "price": "$629.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553054_sd.jpg;maxHeight=176;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/acer-aspire-vero-15-6-full-hd-laptop-intel-i5-1335u-with-8gb-lpddr5-512gb-pcie-gen4-ssd-cobblestone-gray/6553054.p?skuId=6553054",
@@ -1274,7 +1273,7 @@
   },
   {
     "sku_id": "MRXV3LL/A",
-    "name_short": "Apple MacBook Air 13\" - M3, 8GB, 256GB SSD",
+    "name": "Apple MacBook Air 13\" - M3, 8GB, 256GB SSD",
     "price": "$1,099.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6565/6565837_sd.jpg;maxHeight=121;maxWidth=300",
     "link_url": "https://www.bestbuy.com/site/apple-macbook-air-13-inch-laptop-m3-chip-8gb-memory-256gb-ssd-midnight/6565837.p?skuId=6565837",
@@ -1286,7 +1285,7 @@
   },
   {
     "sku_id": "MPQ13LL/A",
-    "name_short": "Apple 10.9\" iPad (10th Gen) 64GB",
+    "name": "Apple 10.9\" iPad (10th Gen) 64GB",
     "price": "$349.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5200/5200904_sd.jpg;maxHeight=200;maxWidth=264",
     "link_url": "https://www.bestbuy.com/site/apple-10-9-inch-ipad-latest-model-10th-generation-with-wi-fi-64gb-blue/5200904.p?skuId=5200904",
@@ -1298,7 +1297,7 @@
   },
   {
     "sku_id": "MVX23LL/A",
-    "name_short": "Apple 13\" iPad Pro M4 256GB",
+    "name": "Apple 13\" iPad Pro M4 256GB",
     "price": "$1,249.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533540cv11d.jpg;maxHeight=200;maxWidth=273",
     "link_url": "https://www.bestbuy.com/site/apple-13-inch-ipad-pro-m4-chip-wi-fi-256gb-with-oled-space-black/6533540.p?skuId=6533540",
@@ -1310,7 +1309,7 @@
   },
   {
     "sku_id": "MPQ33LL/A",
-    "name_short": "Apple 10.9\" iPad (10th Gen) 64GB",
+    "name": "Apple 10.9\" iPad (10th Gen) 64GB",
     "price": "$349.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5201/5201002_sd.jpg;maxHeight=200;maxWidth=265",
     "link_url": "https://www.bestbuy.com/site/apple-10-9-inch-ipad-latest-model-10th-generation-with-wi-fi-64gb-pink/5201002.p?skuId=5201002",
@@ -1322,7 +1321,7 @@
   },
   {
     "sku_id": "MVV83LL/A",
-    "name_short": "Apple 11\" iPad Pro M4 256GB",
+    "name": "Apple 11\" iPad Pro M4 256GB",
     "price": "$949.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5495/5495362cv11d.jpg;maxHeight=200;maxWidth=262",
     "link_url": "https://www.bestbuy.com/site/apple-11-inch-ipad-pro-m4-chip-wi-fi-256gb-with-oled-space-black/5495362.p?skuId=5495362",
@@ -1334,7 +1333,7 @@
   },
   {
     "sku_id": "MK2L3LL/A",
-    "name_short": "Apple 10.2\" iPad (9th Gen) 64GB",
+    "name": "Apple 10.2\" iPad (9th Gen) 64GB",
     "price": "$249.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4901/4901811_sd.jpg;maxHeight=200;maxWidth=257",
     "link_url": "https://www.bestbuy.com/site/apple-10-2-inch-ipad-9th-generation-with-wi-fi-64gb-silver/4901811.p?skuId=4901811",
@@ -1346,7 +1345,7 @@
   },
   {
     "sku_id": "MM9L3LL/A",
-    "name_short": "Apple 10.9\" iPad Air (5th Gen) M1 256GB",
+    "name": "Apple 10.9\" iPad Air (5th Gen) M1 256GB",
     "price": "$649.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4907/4907300_sd.jpg;maxHeight=200;maxWidth=265",
     "link_url": "https://www.bestbuy.com/site/apple-10-9-inch-ipad-air-5th-generation-m1-chip-wi-fi-256gb-space-gray/4907300.p?skuId=4907300",
@@ -1358,7 +1357,7 @@
   },
   {
     "sku_id": "MPQ93LL/A",
-    "name_short": "Apple 10.9\" iPad (10th Gen) 256GB",
+    "name": "Apple 10.9\" iPad (10th Gen) 256GB",
     "price": "$499.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5201/5201010_sd.jpg;maxHeight=200;maxWidth=264",
     "link_url": "https://www.bestbuy.com/site/apple-10-9-inch-ipad-latest-model-10th-generation-with-wi-fi-256gb-blue/5201010.p?skuId=5201010",
@@ -1370,7 +1369,7 @@
   },
   {
     "sku_id": "MUWD3LL/A",
-    "name_short": "Apple 11\" iPad Air M2 128GB",
+    "name": "Apple 11\" iPad Air M2 128GB",
     "price": "$599.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533554cv11d.jpg;maxHeight=200;maxWidth=266",
     "link_url": "https://www.bestbuy.com/site/apple-11-inch-ipad-air-m2-chip-wi-fi-128gb-blue/6533554.p?skuId=6533554",
@@ -1382,7 +1381,7 @@
   },
   {
     "sku_id": "MV273LL/A",
-    "name_short": "Apple 13\" iPad Air M2 128GB",
+    "name": "Apple 13\" iPad Air M2 128GB",
     "price": "$799.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533576cv11d.jpg;maxHeight=200;maxWidth=274",
     "link_url": "https://www.bestbuy.com/site/apple-13-inch-ipad-air-m2-chip-wi-fi-128gb-space-gray/6533576.p?skuId=6533576",
@@ -1394,7 +1393,7 @@
   },
   {
     "sku_id": "MPQ83LL/A",
-    "name_short": "Apple 10.9\" iPad (10th Gen) 256GB Silver",
+    "name": "Apple 10.9\" iPad (10th Gen) 256GB Silver",
     "price": "$499.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5201/5201004_sd.jpg;maxHeight=200;maxWidth=265",
     "link_url": "https://www.bestbuy.com/site/apple-10-9-inch-ipad-latest-model-10th-generation-with-wi-fi-256gb-silver/5201004.p?skuId=5201004",
@@ -1406,7 +1405,7 @@
   },
   {
     "sku_id": "MPQC3LL/A",
-    "name_short": "Apple 10.9\" iPad (10th Gen) 256GB Pink",
+    "name": "Apple 10.9\" iPad (10th Gen) 256GB Pink",
     "price": "$499.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5201/5201101_sd.jpg;maxHeight=200;maxWidth=265",
     "link_url": "https://www.bestbuy.com/site/apple-10-9-inch-ipad-latest-model-10th-generation-with-wi-fi-256gb-pink/5201101.p?skuId=5201101",
@@ -1418,7 +1417,7 @@
   },
   {
     "sku_id": "MK2N3LL/A",
-    "name_short": "Apple 10.2\" iPad (9th Gen) 256GB",
+    "name": "Apple 10.2\" iPad (9th Gen) 256GB",
     "price": "$399.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4901/4901816_sd.jpg;maxHeight=200;maxWidth=257",
     "link_url": "https://www.bestbuy.com/site/apple-10-2-inch-ipad-9th-generation-with-wi-fi-256gb-space-gray/4901816.p?skuId=4901816",
@@ -1430,7 +1429,7 @@
   },
   {
     "sku_id": "MVX43LL/A",
-    "name_short": "Apple 13\" iPad Pro M4 512GB",
+    "name": "Apple 13\" iPad Pro M4 512GB",
     "price": "$1,449.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533542cv11d.jpg;maxHeight=200;maxWidth=273",
     "link_url": "https://www.bestbuy.com/site/apple-13-inch-ipad-pro-m4-chip-wi-fi-512gb-with-oled-space-black/6533542.p?skuId=6533542",
@@ -1442,7 +1441,7 @@
   },
   {
     "sku_id": "MNXD3LL/A",
-    "name_short": "Apple 11\" iPad Pro (4th Gen) M2 128GB",
+    "name": "Apple 11\" iPad Pro (4th Gen) M2 128GB",
     "price": "$699.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5498/5498400_sd.jpg;maxHeight=200;maxWidth=265",
     "link_url": "https://www.bestbuy.com/site/apple-11-inch-ipad-pro-4th-generation-m2-chip-wi-fi-128gb-space-gray/5498400.p?skuId=5498400",
@@ -1454,7 +1453,7 @@
   },
   {
     "sku_id": "MUWK3LL/A",
-    "name_short": "Apple 11\" iPad Air M2 256GB",
+    "name": "Apple 11\" iPad Air M2 256GB",
     "price": "$699.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533564cv11d.jpg;maxHeight=200;maxWidth=265",
     "link_url": "https://www.bestbuy.com/site/apple-11-inch-ipad-air-m2-chip-wi-fi-256gb-purple/6533564.p?skuId=6533564",
@@ -1466,7 +1465,7 @@
   },
   {
     "sku_id": "MVVC3LL/A",
-    "name_short": "Apple 11\" iPad Pro M4 512GB",
+    "name": "Apple 11\" iPad Pro M4 512GB",
     "price": "$1,149.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5495/5495364cv11d.jpg;maxHeight=200;maxWidth=263",
     "link_url": "https://www.bestbuy.com/site/apple-11-inch-ipad-pro-m4-chip-wi-fi-512gb-with-oled-space-black/5495364.p?skuId=5495364",
@@ -1478,7 +1477,7 @@
   },
   {
     "sku_id": "MV2F3LL/A",
-    "name_short": "Apple 13\" iPad Air M2 256GB",
+    "name": "Apple 13\" iPad Air M2 256GB",
     "price": "$899.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533582cv11d.jpg;maxHeight=200;maxWidth=274",
     "link_url": "https://www.bestbuy.com/site/apple-13-inch-ipad-air-m2-chip-wi-fi-256gb-blue/6533582.p?skuId=6533582",
@@ -1490,7 +1489,7 @@
   },
   {
     "sku_id": "SM-A156UZKDXAA",
-    "name_short": "Samsung Galaxy A15 5G 128GB (Unlocked)",
+    "name": "Samsung Galaxy A15 5G 128GB (Unlocked)",
     "price": "$199.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569030_sd.jpg;maxHeight=200;maxWidth=244",
     "link_url": "https://www.bestbuy.com/site/samsung-galaxy-a15-5g-128gb-unlocked-blue-black/6569030.p?skuId=6569030",
@@ -1502,7 +1501,7 @@
   },
   {
     "sku_id": "SM-A356UZKAXAA",
-    "name_short": "Samsung Galaxy A35 5G 128GB (Unlocked)",
+    "name": "Samsung Galaxy A35 5G 128GB (Unlocked)",
     "price": "$359.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576852_sd.jpg;maxHeight=200;maxWidth=235",
     "link_url": "https://www.bestbuy.com/site/samsung-galaxy-a35-5g-128gb-unlocked-awesome-navy/6576852.p?skuId=6576852",
@@ -1514,7 +1513,7 @@
   },
   {
     "sku_id": "MMM63LL/A",
-    "name_short": "Apple iPhone 13 5G 128GB (Unlocked)",
+    "name": "Apple iPhone 13 5G 128GB (Unlocked)",
     "price": "$629.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6417/6417788_sd.jpg;maxHeight=200;maxWidth=221",
     "link_url": "https://www.bestbuy.com/site/apple-iphone-13-5g-128gb-unlocked-midnight/6417788.p?skuId=6417788",
@@ -1526,7 +1525,7 @@
   },
   {
     "sku_id": "PB0C0007US",
-    "name_short": "Motorola moto g play 2024 64GB (Unlocked)",
+    "name": "Motorola moto g play 2024 64GB (Unlocked)",
     "price": "$129.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568429_sd.jpg;maxHeight=200;maxWidth=235",
     "link_url": "https://www.bestbuy.com/site/motorola-moto-g-play-2024-64gb-unlocked-sapphire-blue/6568429.p?skuId=6568429",
@@ -1538,7 +1537,7 @@
   },
   {
     "sku_id": "SM-S928UZKEXAA",
-    "name_short": "Samsung Galaxy S24 Ultra 256GB (Unlocked)",
+    "name": "Samsung Galaxy S24 Ultra 256GB (Unlocked)",
     "price": "$1,299.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569855_sd.jpg;maxHeight=200;maxWidth=298",
     "link_url": "https://www.bestbuy.com/site/samsung-galaxy-s24-ultra-256gb-unlocked-titanium-black/6569855.p?skuId=6569855",
@@ -1550,7 +1549,7 @@
   },
   {
     "sku_id": "PB0L0000US",
-    "name_short": "Motorola moto g 5G 2024 128GB (Unlocked)",
+    "name": "Motorola moto g 5G 2024 128GB (Unlocked)",
     "price": "$179.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576777_sd.jpg;maxHeight=200;maxWidth=234",
     "link_url": "https://www.bestbuy.com/site/motorola-moto-g-5g-2024-128gb-unlocked-sage-green/6576777.p?skuId=6576777",
@@ -1562,7 +1561,7 @@
   },
   {
     "sku_id": "MQ623LL/A",
-    "name_short": "Apple iPhone 14 Plus 128GB (Unlocked)",
+    "name": "Apple iPhone 14 Plus 128GB (Unlocked)",
     "price": "$829.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6507/6507549_sd.jpg;maxHeight=200;maxWidth=220",
     "link_url": "https://www.bestbuy.com/site/apple-iphone-14-plus-128gb-unlocked-midnight/6507549.p?skuId=6507549",
@@ -1574,7 +1573,7 @@
   },
   {
     "sku_id": "MPUH3LL/A",
-    "name_short": "Apple iPhone 14 128GB (Unlocked)",
+    "name": "Apple iPhone 14 128GB (Unlocked)",
     "price": "$729.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6507/6507555_sd.jpg;maxHeight=200;maxWidth=227",
     "link_url": "https://www.bestbuy.com/site/apple-iphone-14-128gb-unlocked-midnight/6507555.p?skuId=6507555",
@@ -1586,7 +1585,7 @@
   },
   {
     "sku_id": "SM-S711UZAAXAA",
-    "name_short": "Apple iPhone 14 128GB (Unlocked)",
+    "name": "Apple iPhone 14 128GB (Unlocked)",
     "price": "$599.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6561/6561223_sd.jpg;maxHeight=200;maxWidth=234",
     "link_url": "https://www.bestbuy.com/site/samsung-galaxy-s23-fe-128gb-unlocked-graphite/6561223.p?skuId=6561223",
@@ -1598,7 +1597,7 @@
   },
   {
     "sku_id": "PAXW0001US",
-    "name_short": "Motorola moto g stylus 2023 64GB (Unlocked)",
+    "name": "Motorola moto g stylus 2023 64GB (Unlocked)",
     "price": "$129.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6539/6539785_sd.jpg;maxHeight=200;maxWidth=271",
     "link_url": "https://www.bestbuy.com/site/motorola-moto-g-stylus-2023-64gb-unlocked-midnight-blue/6539785.p?skuId=6539785",
@@ -1610,7 +1609,7 @@
   },
   {
     "sku_id": "T608GJBS4-8IN",
-    "name_short": "Lively Jitterbug Smart4 Smartphone for Seniors",
+    "name": "Lively Jitterbug Smart4 Smartphone for Seniors",
     "price": "$99.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6557/6557140_sd.jpg;maxHeight=200;maxWidth=138",
     "link_url": "https://www.bestbuy.com/site/lively-jitterbug-smart4-smartphone-for-seniors-black/6557140.p?skuId=6557140",
@@ -1622,7 +1621,7 @@
   },
   {
     "sku_id": "PAVA0005US",
-    "name_short": "Motorola Moto G Play 2023 32GB (Unlocked)",
+    "name": "Motorola Moto G Play 2023 32GB (Unlocked)",
     "price": "$99.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6525/6525883_sd.jpg;maxHeight=200;maxWidth=195",
     "link_url": "https://www.bestbuy.com/site/motorola-moto-g-play-2023-32gb-unlocked-navy-blue/6525883.p?skuId=6525883",
@@ -1634,7 +1633,7 @@
   },
   {
     "sku_id": "PAXD0001US",
-    "name_short": "Motorola Moto G 5G 2023 128GB (Unlocked)",
+    "name": "Motorola Moto G 5G 2023 128GB (Unlocked)",
     "price": "$149.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6540/6540584_sd.jpg;maxHeight=200;maxWidth=228",
     "link_url": "https://www.bestbuy.com/site/motorola-moto-g-5g-2023-128gb-unlocked-ink-blue/6540584.p?skuId=6540584",
@@ -1646,7 +1645,7 @@
   },
   {
     "sku_id": "SM-S926UZKAXAA",
-    "name_short": "Samsung Galaxy S24+ 256GB (Unlocked)",
+    "name": "Samsung Galaxy S24+ 256GB (Unlocked)",
     "price": "$999.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569843_sd.jpg;maxHeight=200;maxWidth=245",
     "link_url": "https://www.bestbuy.com/site/samsung-galaxy-s24-256gb-unlocked-onyx-black/6569843.p?skuId=6569843",
@@ -1658,7 +1657,7 @@
   },
   {
     "sku_id": "GA04432-US",
-    "name_short": "Google Pixel 8a 5G 128GB (Unlocked)",
+    "name": "Google Pixel 8a 5G 128GB (Unlocked)",
     "price": "$499.00",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578506_sd.jpg;maxHeight=200;maxWidth=248",
     "link_url": "https://www.bestbuy.com/site/google-pixel-8a-5g-128gb-unlocked-obsidian/6578506.p?skuId=6578506",
@@ -1670,7 +1669,7 @@
   },
   {
     "sku_id": "A2172",
-    "name_short": "Apple Pre-Owned iPhone 12 5G 64GB (Unlocked)",
+    "name": "Apple Pre-Owned iPhone 12 5G 64GB (Unlocked)",
     "price": "$379.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530509_sd.jpg;maxHeight=200;maxWidth=221",
     "link_url": "https://www.bestbuy.com/site/apple-pre-owned-iphone-12-5g-64gb-unlocked-black/6530509.p?skuId=6530509",
@@ -1682,7 +1681,7 @@
   },
   {
     "sku_id": "TA-1420",
-    "name_short": "Nokia 2780 Flip Phone (Unlocked)",
+    "name": "Nokia 2780 Flip Phone (Unlocked)",
     "price": "$89.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6526/6526283_sd.jpg;maxHeight=200;maxWidth=89",
     "link_url": "https://www.bestbuy.com/site/nokia-2780-flip-phone-unlocked-blue/6526283.p?skuId=6526283",
@@ -1694,7 +1693,7 @@
   },
   {
     "sku_id": "4053SJ7RED-8IN-V2",
-    "name_short": "Lively Jitterbug Flip2 Cell Phone for Seniors",
+    "name": "Lively Jitterbug Flip2 Cell Phone for Seniors",
     "price": "$59.99",
     "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538307_sd.jpg;maxHeight=200;maxWidth=153",
     "link_url": "https://www.bestbuy.com/site/lively-jitterbug-flip2-cell-phone-for-seniors-red/6538307.p?skuId=6538307",

@@ -1,7 +1,7 @@
 /**
  * @typedef {Object} Product
  * @property {number} id
- * @property {string} name_short
+ * @property {string} name
  * @property {string} image_url
  * @property {string} link_url
  * @property {string[]} tag

@@ -16,7 +16,7 @@ export async function chat(req, res) {
     // Initialize the dialog of the session
     if (!req.session.dialog) {
       const productNames = productData
-        .map((product) => `product name: ${product.name_short}`)
+        .map((product) => `product name: ${product.name}`)
         .join(", ");
       const systemMessage = {
         role: "system",
@@ -50,11 +50,11 @@ export async function chat(req, res) {
         const productArray = parts[1].slice(0, parts[1].length - 1).trim();
 
         const recommendedProducts = productData
-          .filter((product) => productArray.includes(product.name_short))
+          .filter((product) => productArray.includes(product.name))
           .map((product) =>
             new Product(
               product.sku_id,
-              product.name_short,
+              product.name,
               product.price,
               product.image_url,
               product.link_url,
