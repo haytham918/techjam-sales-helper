@@ -2,29 +2,18 @@ import React, { useState, useEffect, useRef } from 'react';
 import './ChatBox.css';
 import ProductCard from './ProductCard';
 
-const PRODUCTS = [
-  {
-    id: 1,
-    name: 'Item 1',
-    imageUrl: './tiktok-logo.jpg',
-    price: 1.99,
-    salesVolume: 5000 
-  },
-  {
-    id: 2,
-    name: 'Item 2',
-    imageUrl: './tiktok-logo.jpg',
-    price: 2.99,
-    salesVolume: 3000
-  },
-  {
-    id: 3,
-    name: 'Item 3',
-    imageUrl: './tiktok-logo.jpg',
-    price: 3.99,
-    salesVolume: 1000
-  }
-];
+const convertNewlinesToBreaks = (text) => {
+  return text.split('\n').map((item, index) => (
+    <React.Fragment key={index}>
+      {item}
+      <br />
+    </React.Fragment>
+  ));
+};
+
+const Text = ({ text }) => {
+  return <span>{convertNewlinesToBreaks(text)}</span>;
+};
 
 const ChatBox = () => {
   const [messages, setMessages] = useState([]);
@@ -40,26 +29,47 @@ const ChatBox = () => {
     scrollToBottom();
   }, [messages]);
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (input.trim()) {
       setMessages([...messages, { text: input, type: 'user', animating: true }]);
       setInput('');
       setIsInputDisabled(true);
 
-      setTimeout(() => {
+      try {
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ userInput: input }),
+        });
+        const data = await response.json();
+        console.log(data);
+        console.log(data.text);
+
         setMessages((prevMessages) => [
           ...prevMessages,
-          { text: 'Sure, I can help with that!', type: 'bot', animating: true },
+          { text: data.text, type: 'bot', animating: true },
         ]);
 
-        setTimeout(() => {
-          setMessages((prevMessages) => [
-            ...prevMessages,
-            { type: 'products', products: PRODUCTS, animating: true }
-          ]);
-          setIsInputDisabled(false);
-        }, 1000);
-      }, 1000);
+        if (Array.isArray(data.products) && data.products.length > 0) {
+          setTimeout(() => {
+            setMessages((prevMessages) => [
+              ...prevMessages,
+              { type: 'products', products: data.products, animating: true },
+            ]);
+          }, 1000);
+        }
+
+      } catch (error) {
+        console.error('Error:', error);
+        setMessages((prevMessages) => [
+          ...prevMessages,
+          { text: 'Sorry, something went wrong.', type: 'bot', animating: true },
+        ]);
+      } finally {
+        setIsInputDisabled(false);
+      }
     }
   };
 
@@ -82,7 +92,7 @@ const ChatBox = () => {
                   className="avatar"
                 />
                 <div className={`message ${msg.type} ${msg.animating ? 'animating' : ''}`}>
-                  <span>{msg.text}</span>
+                  <Text text={msg.text} />
                 </div>
               </>
             ) : msg.type === 'products' ? (
@@ -108,7 +118,7 @@ const ChatBox = () => {
                   className="avatar"
                 />
                 <div className={`message ${msg.type} ${msg.animating ? 'animating' : ''}`}>
-                  <span>{msg.text}</span>
+                  <Text text={msg.text} />
                 </div>
               </>
             )}
