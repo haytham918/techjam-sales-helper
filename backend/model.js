@@ -4,7 +4,7 @@
  * @property {string} name
  * @property {string} image_url
  * @property {string} link_url
- * @property {string[]} tag
+ * @property {string[]} tags
  * @property {number} price
  */
 export class Product {
@@ -13,13 +13,15 @@ export class Product {
    * @param {string} name
    * @param {string} image_url
    * @param {string} link_url
+   * @param {string[]} tags
    * @param {number} price
    */
-  constructor(id, name, image_url, link_url, price) {
+  constructor(id, name, image_url, link_url, tags, price) {
     this.id = id;
     this.name = name;
     this.image_url = image_url;
     this.link_url = link_url;
+    this.tags = tags;
     this.price = price;
   }
 
@@ -27,22 +29,29 @@ export class Product {
    * @returns {string}
    */
   toJSON() {
-    return JSON.stringify({
+    return {
       id: this.id,
       name: this.name,
       image_url: this.image_url,
       link_url: this.link_url,
+      tags: this.tags,
       price: this.price
-    });
+    };
   }
 
   /**
-   * @param {string} jsonString
+   * @param {Object} data
    * @returns {Product}
    */
-  static fromJSON(jsonString) {
-    const data = JSON.parse(jsonString);
-    return new Product(data.id, data.name, data.image_url, data.link_url, data.price);
+  static fromJSON(data) {
+    return new Product(
+      data.id,
+      data.name,
+      data.image_url,
+      data.link_url,
+      data.tags,
+      parseFloat(data.price.replace('$', '').replace(',', ''))
+    );
   }
 }
 
@@ -68,23 +77,14 @@ export class Message {
   }
 
   /**
-   * @returns {string}
+   * @returns {json}
    */
   toJSON() {
-    return JSON.stringify({
+    return {
       sender: this.sender,
       text: this.text,
       timestamp: this.timestamp,
       products: this.products
-    });
-  }
-
-  /**
-   * @param {string} jsonString
-   * @returns {Message}
-   */
-  static fromJSON(jsonString) {
-    const data = JSON.parse(jsonString);
-    return new Message(data.sender, data.text, data.timestamp, data.products);
+    };
   }
 }

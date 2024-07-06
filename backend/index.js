@@ -4,7 +4,7 @@ import { chat } from './chat.js';
 import crypto from 'crypto';
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 4001;
 
 app.use(express.json());
 
